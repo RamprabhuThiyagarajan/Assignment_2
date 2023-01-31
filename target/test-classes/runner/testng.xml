@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="Listeners.CustomListeners" />
+	</listeners>
+	<test name="HomePageTitleTest">
+		<classes>
+			<class name="Testcases.VerifyHomePageTitle" />
+		</classes>
+	</test>
+	<test name="EnterVehicleDataTest">
+		<classes>
+			<class name="Testcases.VerifyEnterVehicleDataTab" />
+		</classes>
+	</test>
+	<test name="EnterInsurantDataTest">
+		<classes>
+			<class name="Testcases.VerifyEnterInsurantDataTab" />
+		</classes>
+	</test>
+	<test name="EnterProductDataTest">
+		<classes>
+			<class name="Testcases.VerifyEnterProductDataTab" />
+		</classes>
+	</test>
+	<test name="SelectPriceOptionTest">
+		<classes>
+			<class name="Testcases.VerifySelectPriceOptionTab" />
+		</classes>
+	</test>
+	<test name="SendQuoteTest">
+		<classes>
+			<class name="Testcases.VerifySendQuoteTab" />
+		</classes>
+	</test>
+</suite> 

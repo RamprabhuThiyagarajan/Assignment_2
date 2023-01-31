@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SendQuoteTest"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="1"
+           time="3.211">
+  <properties />
+  
+            <testcase name="sendQuote" time="0.0" classname="Testcases.TestCase6">
+          <skipped />
+    </testcase>
+  
+            <testcase name="sendQuote" time="3.167" classname="Testcases.TestCase6" />
+      
+</testsuite>

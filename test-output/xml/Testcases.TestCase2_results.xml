@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="EnterVehicleDataTest"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="1"
+           time="5.216">
+  <properties />
+  
+            <testcase name="enterVehicleData" time="0.0" classname="Testcases.TestCase2">
+          <skipped />
+    </testcase>
+  
+            <testcase name="enterVehicleData" time="5.080" classname="Testcases.TestCase2" />
+      
+</testsuite>

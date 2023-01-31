@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="Listeners.CustomListeners"/>
+  </listeners>
+  <test thread-count="5" name="EnterVehicleDataTest(failed)">
+    <classes>
+      <class name="Testcases.VerifyEnterVehicleDataTab">
+        <methods>
+          <include name="reportConfiguration"/>
+          <include name="enterVehicleData" invocation-numbers="1"/>
+          <include name="browserSetUp"/>
+          <include name="quitBrowser"/>
+          <include name="flushReport"/>
+        </methods>
+      </class> <!-- Testcases.VerifyEnterVehicleDataTab -->
+    </classes>
+  </test> <!-- EnterVehicleDataTest(failed) -->
+  <test thread-count="5" name="SendQuoteTest(failed)">
+    <classes>
+      <class name="Testcases.VerifySendQuoteTab">
+        <methods>
+          <include name="flushReport"/>
+          <include name="quitBrowser"/>
+          <include name="browserSetUp"/>
+          <include name="sendQuote" invocation-numbers="0"/>
+          <include name="reportConfiguration"/>
+        </methods>
+      </class> <!-- Testcases.VerifySendQuoteTab -->
+    </classes>
+  </test> <!-- SendQuoteTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
